@@ -1,70 +1,17 @@
-#servicos {
-    position: absolute;
+.fundo-servico {
+    position: flex;
     width: 1903px;
     height: 720px;
     left: 0px;
     top: 1113px;
-    background-color: #7C4032;
 }
 
-article {
-    font-size: 20px;
-    color: blueviolet;
-
-}
-
-#batatinha {
-    color: chartreuse;
-}
-
-.text-color-red {
-    color: red;
-}
-
-.text-background-color-orange {
-    background-color: orange;
-}
-
-.text-size-lg {
-    font-size: 36px;
-}
-
-.text-size-sm {
-    font-size: 10px;
-}
-
-
-.text-color-blue {
-    color: blue;
-}
-
-.text-color-yellow {
-    color: yellow;
-}
-
-.Services {
-    position: absolute;
-    width: 312px;
-    height: 96px;
-    left: 796px;
-    top: 967px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 96px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
+.text-color-branco {
     color: white;
-
 }
 
-.layout .Services .gabi {
 
-    color: white;
+.alinhamento {
+
+    text-align: top;
 }
