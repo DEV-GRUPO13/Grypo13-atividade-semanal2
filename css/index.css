@@ -4,15 +4,24 @@
     height: 900px;
     left: 0px;
     top: 0px;
-
-background: #FEF4DE;
+    background: #FEF4DE;
 }
+
+.logo {
+    position: absolute;
+    width: 545px;
+    height: 537px;
+    left: 1007px;
+    top: 181px;
+}
+
+
 .h-titulo{
     position: absolute;
-    width: 556px;
-    height: 175px;
-    left: 352px;
-    top: 321px;
+    width: 611px;
+    height: 0px;
+    left: 359px;
+    top: 250px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
@@ -20,174 +29,77 @@ background: #FEF4DE;
     line-height: 118.5%;
     display: flex;
     align-items: center;
+    
     color: #663128;
 }
-.logo{
-     position: absolute;
-    width: 545px;
-    height: 537px;
-    left: 1007px;
-    top: 181px;
+
+.h2-titulo{
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 353px;
+    top: 230px;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 118.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 20.5px;
+    color: #663128;
 }
+
+.texto p {
+    position: absolute;
+    width: 552px;
+    height: 72px;
+    left: 353px;
+    top: 478px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #663128;
+}
+
+
 .btn{
+
+    left: 353px; 
+    top: 590px;
+    width: 210px;
+    height: 66px;
+    position: absolute;
     background: #F3CE5E;
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border-radius: 85px;
-
-    position: absolute;
-    width: 175px;
-    height: 70px;
-    left: 355px;
-    top: 700px;
-
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 65px;
-    
+    font-size: 18px;
+    line-height: 68px;
     align-items: center;
     text-align: center;
-
+    text-decoration: none;
     color: #663128;
 }
-.t-titulo{ 
-    position: absolute;
-    width: 505px;
-    height: 96px;
-    left: 700px;
-    top: 1883px;
 
+.btn-abt{
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 612px;
+    top: 612px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 96px;
-
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
     display: flex;
     align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #7C4032;
-}
-.t-fundo{   
-    position: absolute;
-    width: 1903px;
-    height: 796px;
-    left: 0px;
-    top: 1833px;
-
-    background: #FEF4DE;
-}
-.grid-1{
-    box-sizing: border-box;
-    position: absolute;
-    width: 512px;
-    height: 192px;
-    left: 415px;
-    top: 2029px;
-
-    background: #FFFFFF;
-    border: 1px solid #7C4032;
-    border-radius: 30px;
-
-}
-
-.grid-2{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 512px;
-    height: 192px;
-    left: 977px;
-    top: 2029px;
-    
-    background: #FFFFFF;
-    border: 1px solid #7C4032;
-    border-radius: 30px;
-}
-.grid-3{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 512px;
-    height: 192px;
-    left: 415px;
-    top: 2271px;
-    
-    background: #FFFFFF;
-    border: 1px solid #7C4032;
-    border-radius: 30px;
-}
-.grid-4{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 512px;
-    height: 192px;
-    left: 977px;
-    top: 2271px;
-    
-    background: #FFFFFF;
-    border: 1px solid #7C4032;
-    border-radius: 30px;
-}
-.g-btn{
-    position: absolute;
-    width: 210px;
-    height: 66px;
-    left: 846px;
-    top: 2513px;
-
-    background: #F3CE5E;
-    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
-    border-radius: 57px;
-
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 65px;
-    
-    align-items: center;
-    text-align: center;
-
+    text-decoration: none;
     color: #663128;
 }
-.titulo-av1{
-    
 
-    position: auto;
-    width: 325px;
-    height: 24px;
-    left: 465px;
-    top: 2049px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    
-    color: #7C4032;
-
-}
-.t-avaliacao{
-    position: absolute;
-    width: 210px;
-    height: 66px;
-    left: 846px;
-    top: 2513px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-   
-    color: #333333;
-}
