@@ -1,70 +1,158 @@
-#servicos {
+.contatos{
     position: absolute;
-    width: 1903px;
-    height: 720px;
-    left: 0px;
-    top: 1113px;
-    background-color: #7C4032;
-}
-
-article {
-    font-size: 20px;
-    color: blueviolet;
-
-}
-
-#batatinha {
-    color: chartreuse;
-}
-
-.text-color-red {
-    color: red;
-}
-
-.text-background-color-orange {
-    background-color: orange;
-}
-
-.text-size-lg {
-    font-size: 36px;
-}
-
-.text-size-sm {
-    font-size: 10px;
-}
-
-
-.text-color-blue {
-    color: blue;
-}
-
-.text-color-yellow {
-    color: yellow;
-}
-
-.Services {
-    position: absolute;
-    width: 312px;
+    width: 422px;
     height: 96px;
-    left: 796px;
-    top: 967px;
+    left: 500px;
+    top: 2671px;
+ 
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 96px;
     /* identical to box height */
 
     display: flex;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+
+    color: #7C4032;
 
 }
+.campo{
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: -215px;
+    top: 170px;
 
-.layout .Services .gabi {
+    background: #E6AF99;
+    border-radius: 61px;
+}
+.campo2{
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: -215px;
+    top: 235px;
 
-    color: white;
+    background: #E6AF99;
+    border-radius: 61px;
+}
+.campo3{
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: -215px;
+    top: 300px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+.btn-enviar{
+
+    border: 3px solid #7C4032;
+    border-radius: 100px;
+
+
+    /* Enviar */
+
+
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: -120px;
+    top: 370px;
+
+}
+.txt-enviar{
+    position:absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    top: -7px;
+    left: 47px;
+
+    color: #7C4032;
+
+}
+.fundo{
+    position: absolute;
+    width: 1903px;
+    height: 60px;
+    left: -1050px;
+    top: 450px;
+
+    background: #55352D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.e-mail{
+    position: absolute;
+    width: 103px;
+    height: 17px;
+    left: 277px;
+    top: 190px;
+
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.telefone{
+    position: absolute;
+    width: 100px;
+    height: 17px;
+    left: 261px;
+    top: 230px;
+
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+
+/* Gray 1 */
+
+color: #333333;
+}
+.local{
+    position: absolute;
+width: 270px;
+height: 17px;
+left: 263px;
+top: 271px;
+
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 17px;
+
+/* Gray 1 */
+
+color: #333333;
+}
+.logo-email{
+    position: absolute;
+    top: 201px;
+    left:250px;
+
+}
+.logo-tel{
+    position: absolute;
+    top: 240px;
+    left: 250px;
+}
+.logo-ping{
+    position: absolute;
+    top: 278px;
+    left: 253px;
 }
