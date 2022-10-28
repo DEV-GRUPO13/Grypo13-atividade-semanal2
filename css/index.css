@@ -1,13 +1,187 @@
-.fundo{
+.fundohome {
     position: absolute;
     width: 1903px;
     height: 900px;
     left: 0px;
     top: 0px;
-
-background: #FEF4DE;
+    background: #FEF4DE;
 }
-.h-titulo{
+
+.logo {
+    position: absolute;
+    width: 545px;
+    height: 537px;
+    left: 1007px;
+    top: 181px;
+}
+
+
+.h1-titulo {
+    position: absolute;
+    width: 611px;
+    height: 0px;
+    left: 349px;
+    top: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 115px;
+    line-height: 118.5%;
+    display: flex;
+    align-items: center;
+    color: #663128;
+}
+
+.h2-titulo {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 353px;
+    top: 230px;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 118.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 20.5px;
+    color: #663128;
+}
+
+.texto p {
+    position: absolute;
+    width: 552px;
+    height: 72px;
+    left: 353px;
+    top: 478px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #663128;
+}
+
+
+.btnhome {
+
+    left: 353px;
+    top: 590px;
+    width: 210px;
+    height: 66px;
+    position: absolute;
+    background: #F3CE5E;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border-radius: 85px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 68px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #663128;
+}
+
+.btn-abt {
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 612px;
+    top: 612px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #663128;
+}
+
+.retangulo {
+    position: absolute;
+    width: 873px;
+    height: 180px;
+    left: 1030px;
+    top: 0px;
+    background-image: radial-gradient(ellipse farthest-corner at 1300px 0px, rgba(255, 255, 255, 0) 74.1%, #7C4032 0%, #7C4032 0%);
+    transform: rotate(180deg);
+}
+
+.retangulo-2 {
+    position: absolute;
+    width: 1900px;
+    height: 222px;
+    left: 0px;
+    top: 610px;
+    background-image: radial-gradient(ellipse farthest-corner at 1950px 0px, rgba(255, 255, 255, 0) 74.1%, #7C4032 0%, #7C4032 0%);
+}
+
+
+.retangulo-3 {
+    position: absolute;
+    width: 1900px;
+    height: 400px;
+    left: 0px;
+    top: 830px;
+    background: #7C4032;
+    transform: rotate(0deg);
+}
+
+.services {
+    position: absolute;
+    width: 312px;
+    height: 96px;
+    left: 807px;
+    top: 967px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.fundo-servico {
+    position: absolute;
+    width: 1903px;
+    height: 720px;
+    left: 0px;
+    top: 1113px;
+    background: #7C4032;
+}
+
+.text-color-branco {
+    color: white;
+}
+
+.imagem {
+    position: absolute;
+    top: 1120px;
+    left: 352px;
+}
+
+#botao {
+    position: absolute;
+    width: 210px;
+    height: 66px;
+    left: 842px;
+    top: 1720px;
+    background: #F3CE5E;
+    box-shadow: 0px 20px 40px rgb(243 206 94 / 20%);
+    border-radius: 57px;
+}
+
+.h-titulo {
     position: absolute;
     width: 556px;
     height: 175px;
@@ -22,14 +196,16 @@ background: #FEF4DE;
     align-items: center;
     color: #663128;
 }
-.logo{
-     position: absolute;
+
+.logo {
+    position: absolute;
     width: 545px;
     height: 537px;
     left: 1007px;
     top: 181px;
 }
-.btn{
+
+.btn {
     background: #F3CE5E;
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border-radius: 85px;
@@ -45,18 +221,19 @@ background: #FEF4DE;
     font-weight: 700;
     font-size: 26px;
     line-height: 65px;
-    
+
     align-items: center;
     text-align: center;
 
     color: #663128;
 }
-.t-titulo{ 
+
+.t-titulo {
     position: absolute;
     width: 505px;
     height: 96px;
     left: 700px;
-    top: 1883px;
+    top: 1823px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -71,7 +248,8 @@ background: #FEF4DE;
 
     color: #7C4032;
 }
-.t-fundo{   
+
+.t-fundo {
     position: absolute;
     width: 1903px;
     height: 796px;
@@ -80,7 +258,8 @@ background: #FEF4DE;
 
     background: #FEF4DE;
 }
-.grid-1{
+
+.grid-1 {
     box-sizing: border-box;
     position: absolute;
     width: 512px;
@@ -94,7 +273,7 @@ background: #FEF4DE;
 
 }
 
-.grid-2{
+.grid-2 {
     box-sizing: border-box;
 
     position: absolute;
@@ -102,12 +281,13 @@ background: #FEF4DE;
     height: 192px;
     left: 977px;
     top: 2029px;
-    
+
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
 }
-.grid-3{
+
+.grid-3 {
     box-sizing: border-box;
 
     position: absolute;
@@ -115,12 +295,13 @@ background: #FEF4DE;
     height: 192px;
     left: 415px;
     top: 2271px;
-    
+
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
 }
-.grid-4{
+
+.grid-4 {
     box-sizing: border-box;
 
     position: absolute;
@@ -128,55 +309,54 @@ background: #FEF4DE;
     height: 192px;
     left: 977px;
     top: 2271px;
-    
+
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
 }
-.g-btn{
-    position: absolute;
+
+.g-btn {
+    left: 845px;
+    top: 2511px;
     width: 210px;
     height: 66px;
-    left: 846px;
-    top: 2513px;
-
+    position: absolute;
     background: #F3CE5E;
-    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
-    border-radius: 57px;
-
-
-    font-family: 'Poppins';
+    box-shadow: 0px 20px 40px rgb(243 206 94 / 20%);
+    border-radius: 85px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 65px;
-    
+    font-size: 18px;
+    line-height: 68px;
     align-items: center;
     text-align: center;
-
+    text-decoration: none;
     color: #663128;
 }
-.titulo-av1{
-    
+
+.titulo-av1 {
+
 
     position: auto;
     width: 325px;
     height: 24px;
     left: 465px;
     top: 2049px;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     
-    
+
+
     color: #7C4032;
 
 }
-.t-avaliacao{
+
+.t-avaliacao {
     position: absolute;
     width: 210px;
     height: 66px;
@@ -188,6 +368,171 @@ background: #FEF4DE;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-   
+
     color: #333333;
+}
+
+.titulo-contatos {
+    position: absolute;
+    width: 422px;
+    height: 96px;
+    left: 794px;
+    top: 2608px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 96px;
+    display: flex;
+
+    color: #7C4032;
+
+}
+
+.campo1 {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 213px;
+    top: 2870px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+
+.campo2 {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 213px;
+    top: 2930px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+
+.campo3 {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 213px;
+    top: 2990px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+
+
+.btn-enviar {
+    border: 3px solid #7C4032;
+    border-radius: 100px;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 639px;
+    top: 3031px;
+}
+
+.txt-enviar {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    top: -7px;
+    left: 56px;
+
+    color: #7C4032;
+
+}
+
+.fundo {
+    position: absolute;
+    width: 1903px;
+    height: 60px;
+    left: 0px;
+    top: 3248px;
+    background: rgb(85, 53, 45);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.e-mail {
+    position: absolute;
+    width: 103px;
+    height: 17px;
+    left: 290px;
+    top: 190px;
+
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.telefone {
+    position: absolute;
+    width: 100px;
+    height: 17px;
+    left: 290px;
+    top: 230px;
+
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.local {
+    position: absolute;
+    width: 270px;
+    height: 17px;
+    left: 290px;
+    top: 271px;
+
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.logo-email {
+    position: absolute;
+    top: 201px;
+    left: 250px;
+
+}
+
+.logo-tel {
+    position: absolute;
+    top: 240px;
+    left: 250px;
+}
+
+.logo-ping {
+    position: absolute;
+    top: 278px;
+    left: 253px;
+}
+
+.icons {
+    position: absolute;
+    left: 770px;
+    top: 2677px;
+}
+.imput {
+    position: absolute;
+    left: 332px;
+    top: -28px;
+
 }
